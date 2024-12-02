@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+
+:root {
+  --primary-color: rgb(23, 120, 145);
+  --primary-color-darker: rgb(9, 63, 77);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+}
+
+
+button, .btn-num {
+  width: 100%;
+  border: none;
+  background: var(--primary-color);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: var(--primary-color-darker);
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right ;
+}
